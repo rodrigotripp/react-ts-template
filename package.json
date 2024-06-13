@@ -9,7 +9,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "init": "webpack --mode production & npm run start",
+    "dev": "webpack --mode development & npm run start",
     "start": "webpack serve --open",
     "build": "webpack --mode production",
     "storybook": "storybook dev -p 6006",
