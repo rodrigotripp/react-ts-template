@@ -5,6 +5,5 @@
 
 
 #config files
-package-lock.json
 *storybook.log
 .env

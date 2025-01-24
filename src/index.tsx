@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import AppLayout from "./AppLayout";
 
 const App: React.FC = () => {
-  return <div>Hola Mundo Mundial with Rodrigo!</div>;
+  return <AppLayout/>
 };
 
 const htmlEl = document.getElementById("root") as Element;
